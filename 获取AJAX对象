@@ -1,0 +1,13 @@
+<script type="text/html">
+    //获取Ajax对象
+    function get Xhr(){
+        var xhr = null;
+        if(window.XMLHttpRequest){
+             xhr = new XMLHttpRequest();
+        }else{
+            //针对IE6及其更古老的版本
+            xhr = new ActiveXObject("Microsoft.XMLHttp");
+        }
+        return xhr;
+    }
+</script>
